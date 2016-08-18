@@ -2,10 +2,46 @@
 <html>
 <head>
 	<title>
-		
+		Formulario de Validacion
 	</title>
+	<meta charset="UTF-8">
 </head>
-<body>
+<body style="background: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 0, 255, 0.3));">
+<div style="position: absolute; top:10%; left:40%; width:20%; text-align:right;">
+<form action="validacion.html" method="post">
+<h3>Ingreso de Informacion Personal</h3>
+<label for="nombre">Nombre:      </label>
+<input type="text" name="nombre" required>
+<br>
+<br>
 
+<label for="email">e-mail:      </label>
+<input type="email" name="email" required>
+<br>
+<br>
+
+<label for="url">WebSite:      </label>
+<input type="url" name="url" required>
+<br>
+<br>
+
+<label for="user">UserName:      </label>
+<input type="text" name="user" required>
+<br>
+<br>
+
+<label for="password">Password:      </label>
+<input type="password" name="password" required>
+<br>
+<br>
+
+<label for="date">Cumpleaños:      </label>
+<input type="date" name="date" required>
+<br>
+<br>
+
+<input type="submit" value="Enviar">
+</form>
+</div>
 </body>
 </html>
